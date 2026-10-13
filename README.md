@@ -14,3 +14,10 @@
 4. jika sisa pembagian 1, maka angka yang dipilih diawal adalah ganjil
 5. jika sisa pembagian 0, maka angka yang dipilih diawal adalah genap
 6. selesai
+
+# Algoritma menghitung luas dan keliling lingkaran
+1. mulai
+2. tentukan nilai jari - jari lingkaran (r)
+3. jika ingin menghitung luas lingkaran, maka nilai jari - jari yang dikuadratkan (r * r) di kalikan nilai pi (pi * r * r)
+4. jika ingin menghitung keliling, maka nilai jari - jari dikali dengan 2 kali pi (2 * pi * r)
+5. selesai
