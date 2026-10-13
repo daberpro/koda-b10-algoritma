@@ -23,7 +23,7 @@ flowchart TB
     Start((mulai))
     Nilai[/Nilai/]
     Assign[Memasukan angka ke Nilai]
-    Kondisi{jika Nilai % 2 sama dengan 0}
+    Kondisi{jika Nilai % 2 == 0}
     P2_1[/Print "Genap"/]
     P2_2[/Print "Ganjil"/]
     End(((selesai)))
@@ -45,3 +45,5 @@ flowchart TB
 3. untuk menghitung luas lingkaran, maka nilai jari - jari yang dikuadratkan (r * r) di kalikan nilai pi (pi * r * r)
 4. untuk menghitung keliling, maka nilai jari - jari dikali dengan 2 kali pi (2 * pi * r)
 5. selesai
+
+### Flowchart menentukan bilangan ganjil atau genap
