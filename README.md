@@ -22,15 +22,13 @@
 flowchart TB
     Start((mulai))
     Nilai[/Nilai/]
-    Assign[Memasukan angka ke Nilai]
     Kondisi{jika Nilai % 2 == 0}
-    P2_1[/Print "Genap"/]
-    P2_2[/Print "Ganjil"/]
+    P2_1[/"Genap"/]
+    P2_2[/"Ganjil"/]
     End(((selesai)))
 
     Start --> Nilai
-    Nilai --> Assign
-    Assign --> Kondisi
+    Nilai --> Kondisi
     Kondisi --> |ya| P2_1
     Kondisi --> |tidak| P2_2
 
