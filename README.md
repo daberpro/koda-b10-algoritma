@@ -37,6 +37,17 @@ flowchart LR
 
 ```
 
+### Pseudo Code
+```
+DECLARE Nilai : INTEGER
+INPUT Nilai
+IF Nilai MOD 2 = 0 THEN
+    OUTPUT "Genap"
+ELSE
+    OUTPUT "Ganjil"
+ENDIF
+```
+
 ## menghitung luas dan keliling lingkaran
 1. mulai
 2. tentukan nilai jari - jari lingkaran (r)
@@ -60,4 +71,12 @@ flowchart LR
     Output1_1 --> Output1_2
     Output1_2 --> End
 
+```
+### Pseudo Code
+
+```
+DECLARE r : REAL
+INPUT r
+OUTPUT r * r * 3.14
+OUTPUT 2 * r * 3.14
 ```
