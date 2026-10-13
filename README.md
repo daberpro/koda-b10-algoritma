@@ -23,8 +23,8 @@ flowchart TB
     Start((mulai))
     Nilai[/Nilai/]
     Kondisi{Nilai % 2 == 0}
-    P2_1[/"Genap"/]
-    P2_2[/"Ganjil"/]
+    P2_1[/#quot;Genap#quot;/]
+    P2_2[/#quot;Ganjil#quot;/]
     End(((selesai)))
 
     Start --> Nilai
