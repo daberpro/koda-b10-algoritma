@@ -51,17 +51,13 @@ flowchart LR
 flowchart LR
     Start((mulai))
     Input[/r/]
-    P1_1[luas = r * r * 3.14]
-    P1_2[keliling = 2 * r * 3.14]
-    Output1_1[/luas/]
-    Output1_2[/keliling/]
+    Output1_1[/r * r * 3.14/]
+    Output1_2[/2 * r * 3.14/]
     End(((selesai)))
 
     Start --> Input
-    Input --> P1_1
-    P1_1 --> Output1_1
-    Output1_1 --> P1_2
-    P1_2 --> Output1_2
+    Input --> Output1_1
+    Output1_1 --> Output1_2
     Output1_2 --> End
 
 ```
