@@ -19,7 +19,7 @@
 ### flowchart
 ```mermaid
 
-flowchart TB
+flowchart LR
     Start((mulai))
     Nilai[/Nilai/]
     Kondisi{Nilai % 2 == 0}
@@ -40,8 +40,29 @@ flowchart TB
 ## menghitung luas dan keliling lingkaran
 1. mulai
 2. tentukan nilai jari - jari lingkaran (r)
-3. untuk menghitung luas lingkaran, maka nilai jari - jari yang dikuadratkan (r * r) di kalikan nilai pi (pi * r * r)
+3. untuk menghitung luas lingkaran, maka nilai jari - jari yang dikuadratkan (r * r) di kalikan nilai pi (pi * r * r), dimana nilai pi bisa di approksimasikan sebagai 3.14
 4. untuk menghitung keliling, maka nilai jari - jari dikali dengan 2 kali pi (2 * pi * r)
 5. selesai
 
-### Flowchart menentukan bilangan ganjil atau genap
+### flowchart
+
+```mermaid
+
+flowchart LR
+    Start((mulai))
+    Input[/r/]
+    P1_1[luas = r * r * 3.14]
+    P1_2[keliling = 2 * r * 3.14]
+    Output1_1[/luas/]
+    Output1_2[/keliling/]
+    End(((selesai)))
+
+    Start --> Input
+    Input --> P1_1
+    Input --> P1_2
+    P1_1 --> Output1_1
+    P1_2 --> Output1_2
+    Output1_1 --> End
+    Output1_2 --> End
+
+```
