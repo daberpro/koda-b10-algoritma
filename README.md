@@ -59,10 +59,9 @@ flowchart LR
 
     Start --> Input
     Input --> P1_1
-    Input --> P1_2
     P1_1 --> Output1_1
+    Output1_1 --> P1_2
     P1_2 --> Output1_2
-    Output1_1 --> End
     Output1_2 --> End
 
 ```
