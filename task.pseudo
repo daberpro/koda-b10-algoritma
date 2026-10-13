@@ -1,0 +1,13 @@
+DECLARE Nilai : INTEGER
+INPUT Nilai
+IF Nilai MOD 2 = 0 THEN
+    OUTPUT "Genap"
+ELSE
+    OUTPUT "Ganjil"
+ENDIF
+
+DECLARE r : REAL
+INPUT r
+OUTPUT r * r * 3.14
+OUTPUT 2 * r * 3.14
+
