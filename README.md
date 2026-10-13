@@ -1,4 +1,5 @@
-# Algoritma memindahkan Air
+# Algoritma
+## memindahkan Air
 1. mulai
 2. siapkan 1 gelas kosong (gelas C)
 3. pindahkan isi gelas teh ke dalam gelas kosong (gelas C)
@@ -7,7 +8,7 @@
 6. selesai
 
 
-# Algoritma menentukan bilangan ganjil atau genap
+## menentukan bilangan ganjil atau genap
 1. mulai
 2. tentukan atau pilih nilai yang akan dicari tau genap atau ganjil
 3. terapkan operasi matematika modulo dengan angka 2, ke nilai awal yang sudah dipilih, yang akan memberikan sisa pembagian
@@ -15,7 +16,30 @@
 5. jika sisa pembagian 0, maka angka yang dipilih diawal adalah genap
 6. selesai
 
-# Algoritma menghitung luas dan keliling lingkaran
+### flowchart
+```mermaid
+
+flowchart TB
+    Start((mulai))
+    Nilai[/Nilai/]
+    Assign[Memasukan angka ke Nilai]
+    Kondisi{jika Nilai % 2 sama dengan 0}
+    P2_1[/Print "Genap"/]
+    P2_2[/Print "Ganjil"/]
+    End(((selesai)))
+
+    Start --> Nilai
+    Nilai --> Assign
+    Assign --> Kondisi
+    Kondisi --> |ya| P2_1
+    Kondisi --> |tidak| P2_2
+
+    P2_1 --> End
+    P2_2 --> End
+
+```
+
+## menghitung luas dan keliling lingkaran
 1. mulai
 2. tentukan nilai jari - jari lingkaran (r)
 3. untuk menghitung luas lingkaran, maka nilai jari - jari yang dikuadratkan (r * r) di kalikan nilai pi (pi * r * r)
